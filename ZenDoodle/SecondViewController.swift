@@ -9,19 +9,20 @@ import UIKit
 
 class SecondViewController: UIViewController {
     
+    @IBOutlet weak var embeddedSecondViewController: UIView!
+    
     var drawingView: ACEDrawingView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.drawingView = ACEDrawingView(frame: self.view.frame);
-        self.view.addSubview(self.drawingView!)
+        self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.frame);
+        self.embeddedSecondViewController.addSubview(self.drawingView!)
 }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation

@@ -60,12 +60,25 @@
                     <view key="view" contentMode="scaleToFill" id="Zki-jq-quQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
+                                <rect key="frame" x="0.0" y="84" width="600" height="496"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bXt-Cb-gSh" firstAttribute="top" secondItem="BuE-eN-uFV" secondAttribute="bottom" constant="20" id="2rX-fe-KHI"/>
+                            <constraint firstItem="BuE-eN-uFV" firstAttribute="top" secondItem="gAd-8G-YD7" secondAttribute="bottom" constant="20" id="f21-kq-bOy"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="embeddedSecondViewController" destination="BuE-eN-uFV" id="h0K-M7-egt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="re8-ao-zpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="790" y="318"/>
+            <point key="canvasLocation" x="837" y="318"/>
         </scene>
     </scenes>
 </document>
