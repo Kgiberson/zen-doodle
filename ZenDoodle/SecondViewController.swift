@@ -15,6 +15,7 @@ class SecondViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.frame);
         self.embeddedSecondViewController.addSubview(self.drawingView!)
 }
