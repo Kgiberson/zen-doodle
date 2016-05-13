@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "950ACE2A3F04A7159A8FE9CB7E9961E19E4A3312",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "950ACE2A3F04A7159A8FE9CB7E9961E19E4A3312" : 0,
+    "FEAF6AACEDA9F70DCC617232BFD82812051AB052" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "02C84253-0388-462B-9B6C-90C6B20DF74B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "950ACE2A3F04A7159A8FE9CB7E9961E19E4A3312" : "zen-doodle\/",
+    "FEAF6AACEDA9F70DCC617232BFD82812051AB052" : "ACEDrawingView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ZenDoodle",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ZenDoodle\/ZenDoodle.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Kgiberson\/zen-doodle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "950ACE2A3F04A7159A8FE9CB7E9961E19E4A3312"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Srossmanreich\/ACEDrawingView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FEAF6AACEDA9F70DCC617232BFD82812051AB052"
+    }
+  ]
+}
