@@ -2,18 +2,19 @@
 //  SecondViewController.swift
 //  ZenDoodle
 //
-//  Created by Sydney Rossman-Reich on 5/13/16.
 //  Copyright © 2016 ZenDoodle. All rights reserved.
 //
 
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    var drawingView: ACEDrawingView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let myView = ACEDrawingView(frame: self.view.frame);
-        self.view.addSubview(myView)
+        self.drawingView = ACEDrawingView(frame: self.view.frame);
+        self.view.addSubview(self.drawingView!)
 }
 
     override func didReceiveMemoryWarning() {
