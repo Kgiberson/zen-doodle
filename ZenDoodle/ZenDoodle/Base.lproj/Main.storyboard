@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -61,14 +63,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
-                                <rect key="frame" x="0.0" y="84" width="600" height="496"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
+                                <rect key="frame" x="0.0" y="84" width="580" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="BuE-eN-uFV" secondAttribute="height" multiplier="35:31" id="De5-Rt-tXp"/>
+                                    <constraint firstAttribute="height" constant="496" id="Tl8-dW-sfB"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bXt-Cb-gSh" firstAttribute="top" secondItem="BuE-eN-uFV" secondAttribute="bottom" constant="20" id="2rX-fe-KHI"/>
+                            <constraint firstItem="BuE-eN-uFV" firstAttribute="leading" secondItem="Zki-jq-quQ" secondAttribute="leadingMargin" id="4qS-HM-qUF"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BuE-eN-uFV" secondAttribute="trailing" id="NDn-qk-IQ2"/>
                             <constraint firstItem="BuE-eN-uFV" firstAttribute="top" secondItem="gAd-8G-YD7" secondAttribute="bottom" constant="20" id="f21-kq-bOy"/>
                         </constraints>
                     </view>

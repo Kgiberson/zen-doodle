@@ -15,8 +15,8 @@
 		098549C71CE64CD7003F0C6D /* ZenDoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549C61CE64CD7003F0C6D /* ZenDoodleTests.swift */; };
 		098549D21CE64CD7003F0C6D /* ZenDoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549D11CE64CD7003F0C6D /* ZenDoodleUITests.swift */; };
 		614786741CE6606000845D24 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614786731CE6606000845D24 /* SecondViewController.swift */; };
-		619BF3351CE653EA00A719BD /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 619BF3321CE653EA00A719BD /* ACEDrawingTools.m */; };
-		619BF3361CE653EA00A719BD /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 619BF3341CE653EA00A719BD /* ACEDrawingView.m */; };
+		61C28FE51CE68A190054D716 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE21CE68A190054D716 /* ACEDrawingTools.m */; };
+		61C28FE61CE68A190054D716 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE41CE68A190054D716 /* ACEDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,10 +52,10 @@
 		098549D31CE64CD7003F0C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		614786731CE6606000845D24 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		619BF3301CE653EA00A719BD /* ZenDoodle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenDoodle-Bridging-Header.h"; sourceTree = "<group>"; };
-		619BF3311CE653EA00A719BD /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ../../../ACEDrawingView/ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
-		619BF3321CE653EA00A719BD /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ../../../ACEDrawingView/ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
-		619BF3331CE653EA00A719BD /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ../../../ACEDrawingView/ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
-		619BF3341CE653EA00A719BD /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ../../../ACEDrawingView/ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
+		61C28FE11CE68A190054D716 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
+		61C28FE21CE68A190054D716 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
+		61C28FE31CE68A190054D716 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
+		61C28FE41CE68A190054D716 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +86,10 @@
 		098549A51CE64CD6003F0C6D = {
 			isa = PBXGroup;
 			children = (
+				61C28FE11CE68A190054D716 /* ACEDrawingTools.h */,
+				61C28FE21CE68A190054D716 /* ACEDrawingTools.m */,
+				61C28FE31CE68A190054D716 /* ACEDrawingView.h */,
+				61C28FE41CE68A190054D716 /* ACEDrawingView.m */,
 				098549B01CE64CD6003F0C6D /* ZenDoodle */,
 				098549C51CE64CD7003F0C6D /* ZenDoodleTests */,
 				098549D01CE64CD7003F0C6D /* ZenDoodleUITests */,
@@ -106,10 +110,6 @@
 		098549B01CE64CD6003F0C6D /* ZenDoodle */ = {
 			isa = PBXGroup;
 			children = (
-				619BF3311CE653EA00A719BD /* ACEDrawingTools.h */,
-				619BF3321CE653EA00A719BD /* ACEDrawingTools.m */,
-				619BF3331CE653EA00A719BD /* ACEDrawingView.h */,
-				619BF3341CE653EA00A719BD /* ACEDrawingView.m */,
 				098549B11CE64CD6003F0C6D /* AppDelegate.swift */,
 				098549B31CE64CD6003F0C6D /* ViewController.swift */,
 				614786731CE6606000845D24 /* SecondViewController.swift */,
@@ -273,9 +273,9 @@
 			files = (
 				098549B41CE64CD6003F0C6D /* ViewController.swift in Sources */,
 				098549B21CE64CD6003F0C6D /* AppDelegate.swift in Sources */,
-				619BF3351CE653EA00A719BD /* ACEDrawingTools.m in Sources */,
+				61C28FE61CE68A190054D716 /* ACEDrawingView.m in Sources */,
+				61C28FE51CE68A190054D716 /* ACEDrawingTools.m in Sources */,
 				614786741CE6606000845D24 /* SecondViewController.swift in Sources */,
-				619BF3361CE653EA00A719BD /* ACEDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
