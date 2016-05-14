@@ -23,6 +23,18 @@ class SecondViewController: UIViewController {
         self.drawingView?.clear()
     }
 
+    @IBAction func takeScreenShot(sender: UIButton) {
+        
+        UIGraphicsBeginImageContext(drawingView!.frame.size)
+        drawingView!.layer.renderInContext(UIGraphicsGetCurrentContext()!)
+        
+        let sourceImage = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        UIImageWriteToSavedPhotosAlbum(sourceImage,nil,nil,nil)
+        
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
