@@ -28,7 +28,6 @@ class SecondViewController: UIViewController {
         self.embeddedSecondViewController.addSubview(self.drawingView!)
     
         
-        
     }
     
     @IBAction func resetScreen(sender: AnyObject) {

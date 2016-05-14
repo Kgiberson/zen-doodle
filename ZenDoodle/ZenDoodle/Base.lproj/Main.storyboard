@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Navigation Controller-->
@@ -83,7 +82,7 @@
         <!--Second View Controller-->
         <scene sceneID="8uF-gd-d2K">
             <objects>
-                <viewController id="Iff-7F-KBL" customClass="SecondViewController" customModule="ZenDoodle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="Iff-7F-KBL" customClass="SecondViewController" customModule="ZenDoodle" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gAd-8G-YD7"/>
                         <viewControllerLayoutGuide type="bottom" id="bXt-Cb-gSh"/>
@@ -92,73 +91,77 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-mp-p0O">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="702" width="34" height="30"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dJp-MO-muC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="341" y="702" width="34" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
                                 <rect key="frame" x="0.0" y="114" width="580" height="496"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
-                                        <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                        <state key="normal" title="Reset">
-                                            <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="20" y="615" width="39" height="30"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <state key="normal" title="Save"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="311" y="615" width="34" height="30"/>
-                                        </variation>
-                                        <connections>
-                                            <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-mp-p0O">
-                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                        <state key="normal" title="Back"/>
-                                        <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="26" y="0.0" width="34" height="30"/>
-                                        </variation>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="t1L-9h-Rpl"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="BuE-eN-uFV" secondAttribute="height" multiplier="35:31" id="De5-Rt-tXp"/>
-                                    <constraint firstAttribute="height" constant="496" id="Tl8-dW-sfB"/>
+                                    <constraint firstAttribute="height" constant="496" id="Tl8-dW-sfB">
+                                        <variation key="heightClass=regular-widthClass=compact" constant="600"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="BuE-eN-uFV" secondAttribute="height" multiplier="29:35" id="twn-I2-AuE"/>
                                 </constraints>
                                 <variation key="default">
-                                    <mask key="subviews">
-                                        <exclude reference="5WD-u3-Agi"/>
-                                        <exclude reference="VqF-9M-uMf"/>
-                                        <exclude reference="FcU-mp-p0O"/>
+                                    <mask key="constraints">
+                                        <exclude reference="twn-I2-AuE"/>
                                     </mask>
                                 </variation>
                                 <variation key="widthClass=compact" misplaced="YES">
                                     <rect key="frame" x="20" y="84" width="360" height="496"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <mask key="subviews">
-                                        <include reference="5WD-u3-Agi"/>
-                                        <include reference="VqF-9M-uMf"/>
-                                        <include reference="FcU-mp-p0O"/>
+                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                    <rect key="frame" x="0.0" y="91" width="400" height="488"/>
+                                    <mask key="constraints">
+                                        <include reference="twn-I2-AuE"/>
                                     </mask>
                                 </variation>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
+                                <rect key="frame" x="59" y="80" width="39" height="30"/>
+                                <state key="normal" title="Reset">
+                                    <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="181" y="702" width="39" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="bXt-Cb-gSh" firstAttribute="top" secondItem="BuE-eN-uFV" secondAttribute="bottom" constant="20" id="2rX-fe-KHI"/>
-                            <constraint firstItem="BuE-eN-uFV" firstAttribute="leading" secondItem="Zki-jq-quQ" secondAttribute="leadingMargin" id="4qS-HM-qUF"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="BuE-eN-uFV" secondAttribute="trailing" id="NDn-qk-IQ2"/>
-                            <constraint firstItem="BuE-eN-uFV" firstAttribute="top" secondItem="gAd-8G-YD7" secondAttribute="bottom" constant="20" id="f21-kq-bOy"/>
-                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="FcU-mp-p0O"/>
+                                <exclude reference="VqF-9M-uMf"/>
+                                <exclude reference="5WD-u3-Agi"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="FcU-mp-p0O"/>
+                                <include reference="VqF-9M-uMf"/>
+                                <include reference="5WD-u3-Agi"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -168,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="re8-ao-zpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848" y="331"/>
+            <point key="canvasLocation" x="847.5" y="330.75"/>
         </scene>
     </scenes>
     <resources>
@@ -177,6 +180,6 @@
         <image name="Pattern3" width="236" height="227"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="t1L-9h-Rpl"/>
+        <segue reference="dJp-MO-muC"/>
     </inferredMetricsTieBreakers>
 </document>
