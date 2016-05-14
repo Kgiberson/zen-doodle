@@ -10,7 +10,10 @@
         <!--Navigation Controller-->
         <scene sceneID="3gw-Z5-pm2">
             <objects>
-                <navigationController id="sIq-Wi-hBb" sceneMemberID="viewController">
+                <navigationController navigationBarHidden="YES" id="sIq-Wi-hBb" sceneMemberID="viewController">
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MAg-Lr-FYh">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
