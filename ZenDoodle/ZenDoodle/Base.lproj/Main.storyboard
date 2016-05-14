@@ -99,6 +99,16 @@
                                     <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Save"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="283" y="77" width="34" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -107,6 +117,16 @@
                             <constraint firstAttribute="trailingMargin" secondItem="BuE-eN-uFV" secondAttribute="trailing" id="NDn-qk-IQ2"/>
                             <constraint firstItem="BuE-eN-uFV" firstAttribute="top" secondItem="gAd-8G-YD7" secondAttribute="bottom" constant="20" id="f21-kq-bOy"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="VqF-9M-uMf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="VqF-9M-uMf"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems>
                         <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="KCd-ct-z8t"/>
