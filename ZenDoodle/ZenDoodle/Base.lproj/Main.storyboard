@@ -43,16 +43,27 @@
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern1" translatesAutoresizingMaskIntoConstraints="NO" id="hP6-2w-hiN">
                                 <rect key="frame" x="49" y="369" width="160" height="120"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="215" width="160" height="120"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern2" translatesAutoresizingMaskIntoConstraints="NO" id="cjf-sj-xd8">
                                 <rect key="frame" x="217" y="369" width="160" height="120"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="340" width="160" height="120"/>
+                                </variation>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern3" translatesAutoresizingMaskIntoConstraints="NO" id="RgJ-je-i4J">
                                 <rect key="frame" x="385" y="369" width="160" height="120"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="120" y="473" width="160" height="120"/>
+                                </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="248" y="506" width="98" height="39"/>
-                                <state key="normal" title="Draw"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="126" y="215" width="149" height="120"/>
+                                </variation>
                                 <connections>
                                     <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
                                 </connections>
