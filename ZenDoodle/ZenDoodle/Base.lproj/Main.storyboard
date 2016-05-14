@@ -94,7 +94,9 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
                                         <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                        <state key="normal" title="Reset"/>
+                                        <state key="normal" title="Reset">
+                                            <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="20" y="615" width="39" height="30"/>
                                         </variation>

@@ -11,13 +11,20 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var embeddedSecondViewController: UIView!
     
+    
+    
     var drawingView: ACEDrawingView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.view.backgroundColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1)        // app
         self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.frame);
+        
+        self.drawingView!.backgroundColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1) // canvas
         self.embeddedSecondViewController.addSubview(self.drawingView!)
+        
+        self.navigationController.navigationBar.barTintColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1)
 }
     @IBAction func resetScreen(sender: AnyObject) {
         self.drawingView?.clear()
