@@ -19,6 +19,9 @@ class SecondViewController: UIViewController {
         self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.frame);
         self.embeddedSecondViewController.addSubview(self.drawingView!)
 }
+    @IBAction func resetScreen(sender: AnyObject) {
+        self.drawingView?.clear()
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
