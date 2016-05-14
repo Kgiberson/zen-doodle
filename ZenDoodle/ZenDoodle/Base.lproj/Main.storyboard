@@ -21,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HxI-8d-SRW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-652" y="318"/>
+            <point key="canvasLocation" x="-657" y="318"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -36,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
-                                <rect key="frame" x="282" y="266" width="36" height="30"/>
+                                <rect key="frame" x="317" y="249" width="98" height="39"/>
                                 <state key="normal" title="Draw"/>
                                 <connections>
                                     <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
@@ -64,30 +64,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
-                                <rect key="frame" x="0.0" y="84" width="580" height="496"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uV6-Ib-DO4">
-                                        <rect key="frame" x="147" y="0.0" width="57" height="30"/>
-                                        <state key="normal" title="Settings"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="152" y="0.0" width="57" height="30"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8F7-eg-FrQ">
-                                        <rect key="frame" x="300" y="0.0" width="34" height="30"/>
-                                        <state key="normal" title="Save"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="318" y="0.0" width="34" height="30"/>
-                                        </variation>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oj3-E5-uwB">
-                                        <rect key="frame" x="8" y="0.0" width="39" height="30"/>
-                                        <state key="normal" title="Erase"/>
-                                        <variation key="widthClass=compact" fixedFrame="YES">
-                                            <rect key="frame" x="0.0" y="0.0" width="39" height="30"/>
-                                        </variation>
-                                    </button>
-                                </subviews>
+                                <rect key="frame" x="0.0" y="114" width="580" height="496"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="BuE-eN-uFV" secondAttribute="height" multiplier="35:31" id="De5-Rt-tXp"/>
@@ -97,6 +74,16 @@
                                     <rect key="frame" x="20" y="84" width="360" height="496"/>
                                 </variation>
                             </view>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="yNS-ky-xTL">
+                                <rect key="frame" x="0.0" y="70" width="600" height="44"/>
+                            </navigationBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
+                                <rect key="frame" x="59" y="80" width="39" height="30"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -106,13 +93,22 @@
                             <constraint firstItem="BuE-eN-uFV" firstAttribute="top" secondItem="gAd-8G-YD7" secondAttribute="bottom" constant="20" id="f21-kq-bOy"/>
                         </constraints>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="KCd-ct-z8t"/>
+                        <barButtonItem title="Item" id="Uty-VR-KU5"/>
+                        <barButtonItem title="Item" id="1xZ-Xc-vi5"/>
+                        <barButtonItem title="Item" id="2ML-Tz-Biy"/>
+                        <barButtonItem title="Item" id="8ql-mS-aQx"/>
+                        <barButtonItem width="42" style="plain" systemItem="fixedSpace" id="lkq-Xz-4AX"/>
+                    </toolbarItems>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="embeddedSecondViewController" destination="BuE-eN-uFV" id="h0K-M7-egt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="re8-ao-zpr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="837" y="318"/>
+            <point key="canvasLocation" x="848" y="331"/>
         </scene>
     </scenes>
 </document>
