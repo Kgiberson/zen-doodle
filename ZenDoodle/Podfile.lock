@@ -1,0 +1,12 @@
+PODS:
+  - MaterialControls (1.0.2)
+
+DEPENDENCIES:
+  - MaterialControls (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  MaterialControls: bdeeb94aa049b73f70739a5514be137d2d45c08a
+
+PODFILE CHECKSUM: 2f739fb49e5044b85090a7aa3f8884b3ffb5d752
+
+COCOAPODS: 1.0.0
