@@ -14,9 +14,12 @@
 		098549BC1CE64CD7003F0C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098549BA1CE64CD7003F0C6D /* LaunchScreen.storyboard */; };
 		098549C71CE64CD7003F0C6D /* ZenDoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549C61CE64CD7003F0C6D /* ZenDoodleTests.swift */; };
 		098549D21CE64CD7003F0C6D /* ZenDoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549D11CE64CD7003F0C6D /* ZenDoodleUITests.swift */; };
+		0FED415F197B5F4962532C21 /* Pods_ZenDoodle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2FDC869B35B505F59B6A3D0 /* Pods_ZenDoodle.framework */; };
+		2939D86102EDE3579F07DED3 /* Pods_ZenDoodleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A2AE5CE7C1CB65ADBC399E9 /* Pods_ZenDoodleTests.framework */; };
 		614786741CE6606000845D24 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614786731CE6606000845D24 /* SecondViewController.swift */; };
 		61C28FE51CE68A190054D716 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE21CE68A190054D716 /* ACEDrawingTools.m */; };
 		61C28FE61CE68A190054D716 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE41CE68A190054D716 /* ACEDrawingView.m */; };
+		938100B4F1C3877D5D2B9634 /* Pods_ZenDoodleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69829A445138D7614BAEC3 /* Pods_ZenDoodleUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,12 +53,21 @@
 		098549CD1CE64CD7003F0C6D /* ZenDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		098549D11CE64CD7003F0C6D /* ZenDoodleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenDoodleUITests.swift; sourceTree = "<group>"; };
 		098549D31CE64CD7003F0C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A2AE5CE7C1CB65ADBC399E9 /* Pods_ZenDoodleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenDoodleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AEAE553EFAA6680A2BBBFB5 /* Pods-ZenDoodleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodleUITests/Pods-ZenDoodleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		614786731CE6606000845D24 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		619BF3301CE653EA00A719BD /* ZenDoodle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenDoodle-Bridging-Header.h"; sourceTree = "<group>"; };
 		61C28FE11CE68A190054D716 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
 		61C28FE21CE68A190054D716 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
 		61C28FE31CE68A190054D716 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
 		61C28FE41CE68A190054D716 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
+		85F849F8C91A2ADC498417FE /* Pods-ZenDoodleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodleUITests/Pods-ZenDoodleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9AC2ECE2B17C6B693A5F8D84 /* Pods-ZenDoodle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodle/Pods-ZenDoodle.debug.xcconfig"; sourceTree = "<group>"; };
+		9C256B5E1CAFC8AA030A3186 /* Pods-ZenDoodleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodleTests/Pods-ZenDoodleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C69829A445138D7614BAEC3 /* Pods_ZenDoodleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenDoodleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF55E65CE69BDB31BC60319 /* Pods-ZenDoodleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodleTests/Pods-ZenDoodleTests.release.xcconfig"; sourceTree = "<group>"; };
+		F2FDC869B35B505F59B6A3D0 /* Pods_ZenDoodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenDoodle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA5FBD144ACD4AFA905A4F35 /* Pods-ZenDoodle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodle.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodle/Pods-ZenDoodle.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FED415F197B5F4962532C21 /* Pods_ZenDoodle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2939D86102EDE3579F07DED3 /* Pods_ZenDoodleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938100B4F1C3877D5D2B9634 /* Pods_ZenDoodleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +109,8 @@
 				098549C51CE64CD7003F0C6D /* ZenDoodleTests */,
 				098549D01CE64CD7003F0C6D /* ZenDoodleUITests */,
 				098549AF1CE64CD6003F0C6D /* Products */,
+				C67BBD918065741C5583E1CF /* Pods */,
+				148AB91E565B285EA4BCF848 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = ZenDoodleUITests;
 			sourceTree = "<group>";
 		};
+		148AB91E565B285EA4BCF848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2FDC869B35B505F59B6A3D0 /* Pods_ZenDoodle.framework */,
+				0A2AE5CE7C1CB65ADBC399E9 /* Pods_ZenDoodleTests.framework */,
+				9C69829A445138D7614BAEC3 /* Pods_ZenDoodleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C67BBD918065741C5583E1CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AC2ECE2B17C6B693A5F8D84 /* Pods-ZenDoodle.debug.xcconfig */,
+				FA5FBD144ACD4AFA905A4F35 /* Pods-ZenDoodle.release.xcconfig */,
+				9C256B5E1CAFC8AA030A3186 /* Pods-ZenDoodleTests.debug.xcconfig */,
+				ABF55E65CE69BDB31BC60319 /* Pods-ZenDoodleTests.release.xcconfig */,
+				1AEAE553EFAA6680A2BBBFB5 /* Pods-ZenDoodleUITests.debug.xcconfig */,
+				85F849F8C91A2ADC498417FE /* Pods-ZenDoodleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 098549D61CE64CD7003F0C6D /* Build configuration list for PBXNativeTarget "ZenDoodle" */;
 			buildPhases = (
+				C85730D3582EEB96137D4939 /* 📦 Check Pods Manifest.lock */,
 				098549AA1CE64CD6003F0C6D /* Sources */,
 				098549AB1CE64CD6003F0C6D /* Frameworks */,
 				098549AC1CE64CD6003F0C6D /* Resources */,
+				8800D8C71D5DB9D0B62217CC /* 📦 Embed Pods Frameworks */,
+				8EACDE57B1DF10CBD681D29B /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 098549D91CE64CD7003F0C6D /* Build configuration list for PBXNativeTarget "ZenDoodleTests" */;
 			buildPhases = (
+				C248F3FAAE27C51804D1ED3A /* 📦 Check Pods Manifest.lock */,
 				098549BE1CE64CD7003F0C6D /* Sources */,
 				098549BF1CE64CD7003F0C6D /* Frameworks */,
 				098549C01CE64CD7003F0C6D /* Resources */,
+				1E82B8127BB0FA95C454D918 /* 📦 Embed Pods Frameworks */,
+				AC9077EA362613FDF8773BA8 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 098549DC1CE64CD7003F0C6D /* Build configuration list for PBXNativeTarget "ZenDoodleUITests" */;
 			buildPhases = (
+				1A7D6D5692116129144AFDA3 /* 📦 Check Pods Manifest.lock */,
 				098549C91CE64CD7003F0C6D /* Sources */,
 				098549CA1CE64CD7003F0C6D /* Frameworks */,
 				098549CB1CE64CD7003F0C6D /* Resources */,
+				C23A664949BB6F185321763E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +313,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A7D6D5692116129144AFDA3 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1E82B8127BB0FA95C454D918 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenDoodleTests/Pods-ZenDoodleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8800D8C71D5DB9D0B62217CC /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenDoodle/Pods-ZenDoodle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EACDE57B1DF10CBD681D29B /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenDoodle/Pods-ZenDoodle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC9077EA362613FDF8773BA8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenDoodleTests/Pods-ZenDoodleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23A664949BB6F185321763E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZenDoodleUITests/Pods-ZenDoodleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C248F3FAAE27C51804D1ED3A /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C85730D3582EEB96137D4939 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		098549AA1CE64CD6003F0C6D /* Sources */ = {
@@ -417,6 +588,7 @@
 		};
 		098549D71CE64CD7003F0C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AC2ECE2B17C6B693A5F8D84 /* Pods-ZenDoodle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -431,6 +603,7 @@
 		};
 		098549D81CE64CD7003F0C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA5FBD144ACD4AFA905A4F35 /* Pods-ZenDoodle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -444,6 +617,7 @@
 		};
 		098549DA1CE64CD7003F0C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C256B5E1CAFC8AA030A3186 /* Pods-ZenDoodleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZenDoodleTests/Info.plist;
@@ -456,6 +630,7 @@
 		};
 		098549DB1CE64CD7003F0C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABF55E65CE69BDB31BC60319 /* Pods-ZenDoodleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZenDoodleTests/Info.plist;
@@ -468,6 +643,7 @@
 		};
 		098549DD1CE64CD7003F0C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEAE553EFAA6680A2BBBFB5 /* Pods-ZenDoodleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZenDoodleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +655,7 @@
 		};
 		098549DE1CE64CD7003F0C6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85F849F8C91A2ADC498417FE /* Pods-ZenDoodleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZenDoodleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

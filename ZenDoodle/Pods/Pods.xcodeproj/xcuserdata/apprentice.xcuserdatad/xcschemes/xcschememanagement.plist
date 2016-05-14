@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>MaterialControls-MaterialControls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MaterialControls.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZenDoodle.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZenDoodleTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ZenDoodleUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>35BE2C57761A4F7C56157A08242645EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>689CC3E4930DA56862133C21593259CE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>720EA7C4B6AC4D960C9A08E2261B6B22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8ED7786915A05BDDE191E561F523EA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F90A40C941716F40C9709176048625D6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
