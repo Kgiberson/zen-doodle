@@ -1,0 +1,6 @@
+framework module Pods_ZenDoodle {
+  umbrella header "Pods-ZenDoodle-umbrella.h"
+
+  export *
+  module * { export * }
+}
