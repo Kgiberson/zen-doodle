@@ -11,6 +11,9 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var embeddedSecondViewController: UIView!
     
+   
+//    @IBOutlet var navbar: UIView!
+    
     
     
     var drawingView: ACEDrawingView?
@@ -23,9 +26,11 @@ class SecondViewController: UIViewController {
         
         self.drawingView!.backgroundColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1) // canvas
         self.embeddedSecondViewController.addSubview(self.drawingView!)
+    
         
-        self.navigationController.navigationBar.barTintColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1)
-}
+        
+    }
+    
     @IBAction func resetScreen(sender: AnyObject) {
         self.drawingView?.clear()
     }
@@ -38,7 +43,6 @@ class SecondViewController: UIViewController {
         let sourceImage = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         UIImageWriteToSavedPhotosAlbum(sourceImage,nil,nil,nil)
-        
         
     }
     
