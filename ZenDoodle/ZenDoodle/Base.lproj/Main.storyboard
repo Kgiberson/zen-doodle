@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -92,9 +92,11 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
                                 <rect key="frame" x="0.0" y="114" width="580" height="496"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
                                         <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                        <state key="normal" title="Reset"/>
+                                        <state key="normal" title="Reset">
+                                            <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
                                         <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                             <rect key="frame" x="20" y="615" width="39" height="30"/>
                                         </variation>
