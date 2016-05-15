@@ -34,6 +34,10 @@ class SecondViewController: UIViewController {
         self.drawingView?.clear()
     }
 
+    @IBAction func undoButton(sender: UIButton) {
+        self.drawingView?.undoLatestStep()
+    }
+    
     @IBAction func takeScreenShot(sender: UIButton) {
         
         UIGraphicsBeginImageContext(drawingView!.frame.size)
