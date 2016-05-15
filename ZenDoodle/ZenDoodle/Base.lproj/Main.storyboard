@@ -267,6 +267,16 @@
                                     <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tyz-KT-Vyc">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="56" width="359" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hubButton1:" destination="Iff-7F-KBL" eventType="touchUpInside" id="O4c-oU-e4K"/>
+                                    <action selector="hubButton:" destination="cvz-Yz-hd0" eventType="touchUpInside" id="af2-Uc-DGP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -281,6 +291,7 @@
                                 <exclude reference="VqF-9M-uMf"/>
                                 <exclude reference="YjR-1H-iNQ"/>
                                 <exclude reference="5WD-u3-Agi"/>
+                                <exclude reference="Tyz-KT-Vyc"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -295,6 +306,7 @@
                                 <include reference="VqF-9M-uMf"/>
                                 <include reference="YjR-1H-iNQ"/>
                                 <include reference="5WD-u3-Agi"/>
+                                <include reference="Tyz-KT-Vyc"/>
                             </mask>
                         </variation>
                     </view>
@@ -466,6 +478,16 @@
                                     <rect key="frame" x="270" y="55" width="120" height="90"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ok-7p-WGn">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="31" y="55" width="359" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hubButton2:" destination="0dR-S3-wVT" eventType="touchUpInside" id="d5B-qh-fJe"/>
+                                    <action selector="hubButton:" destination="cvz-Yz-hd0" eventType="touchUpInside" id="cQ7-Zx-uTt"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -480,6 +502,7 @@
                                 <exclude reference="VYr-pQ-E5d"/>
                                 <exclude reference="Orx-M9-eof"/>
                                 <exclude reference="gsl-EJ-UW3"/>
+                                <exclude reference="4ok-7p-WGn"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -494,6 +517,7 @@
                                 <include reference="VYr-pQ-E5d"/>
                                 <include reference="Orx-M9-eof"/>
                                 <include reference="gsl-EJ-UW3"/>
+                                <include reference="4ok-7p-WGn"/>
                             </mask>
                         </variation>
                     </view>
@@ -665,6 +689,15 @@
                                     <rect key="frame" x="28" y="64" width="120" height="90"/>
                                 </variation>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD4-CE-XxN">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="28" y="64" width="359" height="90"/>
+                                </variation>
+                                <connections>
+                                    <action selector="hubButton:" destination="cvz-Yz-hd0" eventType="touchUpInside" id="mXZ-0J-TsF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -679,6 +712,7 @@
                                 <exclude reference="vMp-XE-QzD"/>
                                 <exclude reference="Wcy-Nh-97O"/>
                                 <exclude reference="rPq-oJ-Nhd"/>
+                                <exclude reference="oD4-CE-XxN"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -693,6 +727,7 @@
                                 <include reference="vMp-XE-QzD"/>
                                 <include reference="Wcy-Nh-97O"/>
                                 <include reference="rPq-oJ-Nhd"/>
+                                <include reference="oD4-CE-XxN"/>
                             </mask>
                         </variation>
                     </view>
@@ -705,7 +740,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9A-d9-1KO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1000.5" y="1136.25"/>
+            <point key="canvasLocation" x="978" y="1148.25"/>
         </scene>
     </scenes>
     <resources>
@@ -723,6 +758,6 @@
         <image name="Picture3.c" width="154" height="153"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="d5P-M7-G7I"/>
+        <segue reference="dJp-MO-muC"/>
     </inferredMetricsTieBreakers>
 </document>

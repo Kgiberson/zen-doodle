@@ -48,6 +48,35 @@ class SecondViewController: UIViewController {
         
     }
     
+    @IBAction func hubButton1(sender: UIButton) {
+        let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        
+        hud.mode = MBProgressHUDMode.Text
+        
+        hud.detailsLabel.text = "Draw your ZenDoodle in this space"
+        hud.hideAnimated(true, afterDelay: 1.5)
+    }
+    
+    @IBAction func hubButton2(sender: UIButton) {
+        let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        
+        hud.mode = MBProgressHUDMode.Text
+        
+        hud.detailsLabel.text = "Draw your ZenDoodle in this space"
+        hud.hideAnimated(true, afterDelay: 1.5)
+    }
+    
+    @IBAction func hubButton(sender: UIButton) {
+        
+        let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        
+        hud.mode = MBProgressHUDMode.Text
+        
+        hud.detailsLabel.text = "Draw your ZenDoodle in this space"
+        hud.hideAnimated(true, afterDelay: 1.5)
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
