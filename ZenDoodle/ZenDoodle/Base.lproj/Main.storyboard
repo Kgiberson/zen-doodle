@@ -91,26 +91,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-mp-p0O">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Back"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="38" y="702" width="34" height="30"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="dJp-MO-muC"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Save"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="323" y="702" width="34" height="30"/>
-                                </variation>
-                                <connections>
-                                    <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BuE-eN-uFV">
                                 <rect key="frame" x="0.0" y="114" width="580" height="496"/>
                                 <constraints>
@@ -179,11 +159,58 @@
                                     <rect key="frame" x="294" y="28" width="51" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-mp-p0O">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="43" y="651" width="52" height="52"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="dJp-MO-muC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Save">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="306" y="651" width="52" height="52"/>
+                                </variation>
+                                <connections>
+                                    <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YjR-1H-iNQ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="Undo"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Undo">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="225" y="702" width="38" height="30"/>
+                                    <rect key="frame" x="217" y="651" width="52" height="52"/>
                                 </variation>
                                 <connections>
                                     <action selector="undoButton:" destination="Iff-7F-KBL" eventType="touchUpInside" id="dof-Kk-WPq"/>
@@ -191,11 +218,19 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
                                 <rect key="frame" x="59" y="80" width="39" height="30"/>
+                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="132" y="702" width="39" height="30"/>
+                                    <rect key="frame" x="131" y="651" width="52" height="52"/>
                                 </variation>
                                 <connections>
                                     <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
@@ -205,28 +240,28 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="FcU-mp-p0O"/>
-                                <exclude reference="VqF-9M-uMf"/>
                                 <exclude reference="Gc2-D9-xhc"/>
                                 <exclude reference="FyM-QJ-FdP"/>
                                 <exclude reference="2kK-tz-1lx"/>
                                 <exclude reference="Pmi-J0-3i5"/>
                                 <exclude reference="c1b-If-uVC"/>
                                 <exclude reference="Kku-Vk-uAw"/>
+                                <exclude reference="FcU-mp-p0O"/>
+                                <exclude reference="VqF-9M-uMf"/>
                                 <exclude reference="YjR-1H-iNQ"/>
                                 <exclude reference="5WD-u3-Agi"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="FcU-mp-p0O"/>
-                                <include reference="VqF-9M-uMf"/>
                                 <include reference="Gc2-D9-xhc"/>
                                 <include reference="FyM-QJ-FdP"/>
                                 <include reference="2kK-tz-1lx"/>
                                 <include reference="Pmi-J0-3i5"/>
                                 <include reference="c1b-If-uVC"/>
                                 <include reference="Kku-Vk-uAw"/>
+                                <include reference="FcU-mp-p0O"/>
+                                <include reference="VqF-9M-uMf"/>
                                 <include reference="YjR-1H-iNQ"/>
                                 <include reference="5WD-u3-Agi"/>
                             </mask>
