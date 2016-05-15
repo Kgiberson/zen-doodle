@@ -11,13 +11,8 @@ class SecondViewController: UIViewController {
     
     @IBOutlet weak var embeddedSecondViewController: UIView!
     
-   
-//    @IBOutlet var navbar: UIView!
-    
-    
-    
     var drawingView: ACEDrawingView?
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -28,6 +23,10 @@ class SecondViewController: UIViewController {
         self.embeddedSecondViewController.addSubview(self.drawingView!)
     
         
+    }
+    
+    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+        return UIInterfaceOrientationMask.Portrait
     }
     
     @IBAction func resetScreen(sender: AnyObject) {
