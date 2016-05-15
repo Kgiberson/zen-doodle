@@ -19,6 +19,7 @@
 		61C28FE51CE68A190054D716 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE21CE68A190054D716 /* ACEDrawingTools.m */; };
 		61C28FE61CE68A190054D716 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE41CE68A190054D716 /* ACEDrawingView.m */; };
 		80417E7718CF0F71ACF80AA0 /* Pods_ZenDoodleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270FFD614AD2830FAC33E909 /* Pods_ZenDoodleTests.framework */; };
+		843ECE921CE7F476007A5083 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843ECE911CE7F476007A5083 /* .gitignore */; };
 		C6255E5D54E8C2427AA5932A /* Pods_ZenDoodleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A433A41B4A5C48814AF7DA2 /* Pods_ZenDoodleUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		61C28FE21CE68A190054D716 /* ACEDrawingTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingTools.m; path = ACEDrawingView/ACEDrawingTools.m; sourceTree = "<group>"; };
 		61C28FE31CE68A190054D716 /* ACEDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingView.h; path = ACEDrawingView/ACEDrawingView.h; sourceTree = "<group>"; };
 		61C28FE41CE68A190054D716 /* ACEDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEDrawingView.m; path = ACEDrawingView/ACEDrawingView.m; sourceTree = "<group>"; };
+		843ECE911CE7F476007A5083 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D69B98D8CB3AF5AEAC00BAD3 /* Pods-ZenDoodleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZenDoodleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZenDoodleUITests/Pods-ZenDoodleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D973E3D5A0C39F8D06A0016D /* Pods_ZenDoodle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZenDoodle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -101,6 +103,7 @@
 		098549A51CE64CD6003F0C6D = {
 			isa = PBXGroup;
 			children = (
+				843ECE911CE7F476007A5083 /* .gitignore */,
 				61C28FE11CE68A190054D716 /* ACEDrawingTools.h */,
 				61C28FE21CE68A190054D716 /* ACEDrawingTools.m */,
 				61C28FE31CE68A190054D716 /* ACEDrawingView.h */,
@@ -292,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843ECE921CE7F476007A5083 /* .gitignore in Resources */,
 				098549BC1CE64CD7003F0C6D /* LaunchScreen.storyboard in Resources */,
 				098549B91CE64CD6003F0C6D /* Assets.xcassets in Resources */,
 				098549B71CE64CD6003F0C6D /* Main.storyboard in Resources */,
