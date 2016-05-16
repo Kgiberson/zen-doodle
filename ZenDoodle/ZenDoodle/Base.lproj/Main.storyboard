@@ -37,79 +37,58 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to ZenDoodle. Find your zen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v59-oK-QIT">
-                                <rect key="frame" x="28" y="164" width="358" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="highlightedColor"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bamboo_welcome" translatesAutoresizingMaskIntoConstraints="NO" id="8y3-pi-Wv3">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="142" y="85" width="117" height="78"/>
-                                </variation>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture1.c 4.17.41 PM" translatesAutoresizingMaskIntoConstraints="NO" id="hP6-2w-hiN">
-                                <rect key="frame" x="102" y="241" width="160" height="120"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="230" width="160" height="120"/>
+                                    <rect key="frame" x="0.0" y="79" width="414" height="692"/>
                                 </variation>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E4-vO-sRv">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
+                                <state key="normal" image="Picture2.c_circlefied"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="232" width="149" height="120"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture3.c" translatesAutoresizingMaskIntoConstraints="NO" id="RgJ-je-i4J">
-                                <rect key="frame" x="102" y="525" width="160" height="120"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="480" width="160" height="120"/>
-                                </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
-                                <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="482" width="149" height="120"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture2.c" translatesAutoresizingMaskIntoConstraints="NO" id="cjf-sj-xd8">
-                                <rect key="frame" x="102" y="380" width="160" height="120"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="355" width="160" height="120"/>
-                                </variation>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E4-vO-sRv">
-                                <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="360" width="149" height="120"/>
+                                    <rect key="frame" x="133" y="306" width="150" height="150"/>
                                 </variation>
                                 <connections>
                                     <segue destination="0dR-S3-wVT" kind="show" id="fuR-NA-nGL"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bamboo_welcome" translatesAutoresizingMaskIntoConstraints="NO" id="kLw-Cf-S8f">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
+                                <rect key="frame" x="107" y="249" width="155" height="112"/>
+                                <state key="normal" image="Picture3.c_circlefied"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="692"/>
+                                    <rect key="frame" x="35" y="285" width="120" height="120"/>
                                 </variation>
-                            </imageView>
+                                <connections>
+                                    <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
+                                <rect key="frame" x="107" y="249" width="155" height="112"/>
+                                <state key="normal" image="Picture1.c_circlefied 4.17.41 PM"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="257" y="285" width="120" height="120"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="aQv-oC-dsV"/>
+                                <exclude reference="8y3-pi-Wv3"/>
                                 <exclude reference="2E4-vO-sRv"/>
-                                <exclude reference="kLw-Cf-S8f"/>
+                                <exclude reference="aQv-oC-dsV"/>
+                                <exclude reference="cej-7e-Iw5"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="aQv-oC-dsV"/>
+                                <include reference="8y3-pi-Wv3"/>
                                 <include reference="2E4-vO-sRv"/>
-                                <include reference="kLw-Cf-S8f"/>
+                                <include reference="aQv-oC-dsV"/>
+                                <include reference="cej-7e-Iw5"/>
                             </mask>
                         </variation>
                     </view>
@@ -914,6 +893,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rvn-8H-TBO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="565.5" y="925.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9Jt-YJ-fAL">
@@ -938,16 +918,19 @@
         <image name="Picture1.a 4.17.41 PM" width="149" height="143"/>
         <image name="Picture1.b 4.17.41 PM" width="148" height="145"/>
         <image name="Picture1.c 4.17.41 PM" width="147" height="146"/>
+        <image name="Picture1.c_circlefied 4.17.41 PM" width="133" height="132"/>
         <image name="Picture2.a" width="116" height="111"/>
         <image name="Picture2.b" width="116" height="111"/>
         <image name="Picture2.c" width="116" height="112"/>
+        <image name="Picture2.c_circlefied" width="106" height="105"/>
         <image name="Picture3.a" width="155" height="153"/>
         <image name="Picture3.b" width="152" height="149"/>
         <image name="Picture3.c" width="154" height="153"/>
+        <image name="Picture3.c_circlefied" width="137" height="138"/>
         <image name="bamboo_welcome" width="817" height="720"/>
         <image name="save_btn_60" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="d5P-M7-G7I"/>
+        <segue reference="344-y9-fUi"/>
     </inferredMetricsTieBreakers>
 </document>
