@@ -63,7 +63,7 @@
                                     <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <state key="normal" image="enso3c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
