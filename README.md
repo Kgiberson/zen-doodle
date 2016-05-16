@@ -1,4 +1,6 @@
-# ZenDoodle (for iOS) (IN DEVELOPMENT)
+# ZenDoodle (for iOS)
+
+#####(IN DEVELOPMENT)
 
 ## Version
 
@@ -7,15 +9,11 @@
 ## Build Requirements
 * Xcode 7.3 or later
 * iOS 9.3 SDK or later
-* OS X 10.11 SDK or later
-* watchOS 2.2 SDK or later
 * iCloud–enabled provisioning profile
 * App Groups–enabled provisioning profile
 
 ## Runtime Requirements
 * iOS 9.1 or later
-* OS X 10.11 or later
-* watchOS 2.2 or later
 
 ## About ZenDoodle
 
