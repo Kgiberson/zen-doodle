@@ -55,7 +55,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <state key="normal" image="enso3c"/>
+                                <state key="normal" image="enso1c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="12" y="285" width="130" height="130"/>
                                 </variation>
@@ -925,6 +925,7 @@
         <image name="Picture3.b" width="152" height="149"/>
         <image name="Picture3.c" width="154" height="153"/>
         <image name="bamboo_welcome" width="817" height="720"/>
+        <image name="enso1c" width="215" height="207"/>
         <image name="enso2c" width="214" height="213"/>
         <image name="enso3c" width="216" height="214"/>
         <image name="save_btn_60" width="60" height="60"/>
