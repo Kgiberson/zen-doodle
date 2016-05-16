@@ -49,6 +49,8 @@ class SecondViewController: UIViewController {
         
     }
     
+    
+    
 //    Draw Space Notification Buttons
     
     @IBAction func hubButton1(sender: UIButton) {

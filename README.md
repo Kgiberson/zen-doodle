@@ -25,4 +25,4 @@ There are no mistakes when ZenDoodling. Each stroke is the beginning of somethin
 
 ## License
 
-Copyright (C) 2014-2016 Apple Inc. All rights reserved.
+Copyright (C) 2016 ZenDoodle Inc. All rights reserved.
