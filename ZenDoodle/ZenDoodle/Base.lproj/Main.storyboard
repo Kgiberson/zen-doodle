@@ -45,7 +45,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E4-vO-sRv">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <state key="normal" image="Picture2.c_circlefied"/>
+                                <state key="normal" image="enso2c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="133" y="306" width="150" height="150"/>
                                 </variation>
@@ -55,19 +55,19 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <state key="normal" image="Picture3.c_circlefied"/>
+                                <state key="normal" image="enso3c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="35" y="285" width="120" height="120"/>
+                                    <rect key="frame" x="12" y="285" width="130" height="130"/>
                                 </variation>
                                 <connections>
                                     <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <state key="normal" image="Picture1.c_circlefied 4.17.41 PM"/>
+                                <state key="normal" image="enso3c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="257" y="285" width="120" height="120"/>
+                                    <rect key="frame" x="274" y="285" width="130" height="130"/>
                                 </variation>
                                 <connections>
                                     <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
@@ -918,19 +918,18 @@
         <image name="Picture1.a 4.17.41 PM" width="149" height="143"/>
         <image name="Picture1.b 4.17.41 PM" width="148" height="145"/>
         <image name="Picture1.c 4.17.41 PM" width="147" height="146"/>
-        <image name="Picture1.c_circlefied 4.17.41 PM" width="133" height="132"/>
         <image name="Picture2.a" width="116" height="111"/>
         <image name="Picture2.b" width="116" height="111"/>
         <image name="Picture2.c" width="116" height="112"/>
-        <image name="Picture2.c_circlefied" width="106" height="105"/>
         <image name="Picture3.a" width="155" height="153"/>
         <image name="Picture3.b" width="152" height="149"/>
         <image name="Picture3.c" width="154" height="153"/>
-        <image name="Picture3.c_circlefied" width="137" height="138"/>
         <image name="bamboo_welcome" width="817" height="720"/>
+        <image name="enso2c" width="214" height="213"/>
+        <image name="enso3c" width="216" height="214"/>
         <image name="save_btn_60" width="60" height="60"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="344-y9-fUi"/>
+        <segue reference="dJp-MO-muC"/>
     </inferredMetricsTieBreakers>
 </document>
