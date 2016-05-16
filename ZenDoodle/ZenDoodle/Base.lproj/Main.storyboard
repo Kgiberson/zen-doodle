@@ -53,24 +53,24 @@
                                     <segue destination="0dR-S3-wVT" kind="show" id="fuR-NA-nGL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
-                                <rect key="frame" x="107" y="249" width="155" height="112"/>
-                                <state key="normal" image="enso1c"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="12" y="285" width="130" height="130"/>
-                                </variation>
-                                <connections>
-                                    <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <state key="normal" image="enso3c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="274" y="285" width="130" height="130"/>
+                                    <rect key="frame" x="5" y="291" width="130" height="130"/>
                                 </variation>
                                 <connections>
                                     <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
+                                <rect key="frame" x="107" y="249" width="155" height="112"/>
+                                <state key="normal" image="enso1c"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="281" y="291" width="130" height="130"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -79,16 +79,16 @@
                             <mask key="subviews">
                                 <exclude reference="8y3-pi-Wv3"/>
                                 <exclude reference="2E4-vO-sRv"/>
-                                <exclude reference="aQv-oC-dsV"/>
                                 <exclude reference="cej-7e-Iw5"/>
+                                <exclude reference="aQv-oC-dsV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="8y3-pi-Wv3"/>
                                 <include reference="2E4-vO-sRv"/>
-                                <include reference="aQv-oC-dsV"/>
                                 <include reference="cej-7e-Iw5"/>
+                                <include reference="aQv-oC-dsV"/>
                             </mask>
                         </variation>
                     </view>
