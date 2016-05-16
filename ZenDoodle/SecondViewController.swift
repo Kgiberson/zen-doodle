@@ -21,9 +21,10 @@ class SecondViewController: UIViewController {
         
         self.drawingView!.backgroundColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1) // canvas
         self.embeddedSecondViewController.addSubview(self.drawingView!)
-    
         
     }
+    
+    
     
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.Portrait
@@ -47,6 +48,8 @@ class SecondViewController: UIViewController {
         UIImageWriteToSavedPhotosAlbum(sourceImage,nil,nil,nil)
         
     }
+    
+//    Draw Space Notification Buttons
     
     @IBAction func hubButton1(sender: UIButton) {
         let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)

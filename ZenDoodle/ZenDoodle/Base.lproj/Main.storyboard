@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -37,52 +37,54 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is a placeholder for our welcome message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v59-oK-QIT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to ZenDoodle. Find your zen." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v59-oK-QIT">
                                 <rect key="frame" x="28" y="164" width="358" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="142" y="85" width="117" height="78"/>
+                                </variation>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern1" translatesAutoresizingMaskIntoConstraints="NO" id="hP6-2w-hiN">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture1.c 4.17.41 PM" translatesAutoresizingMaskIntoConstraints="NO" id="hP6-2w-hiN">
                                 <rect key="frame" x="102" y="241" width="160" height="120"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="215" width="160" height="120"/>
+                                    <rect key="frame" x="120" y="230" width="160" height="120"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="215" width="149" height="120"/>
+                                    <rect key="frame" x="126" y="232" width="149" height="120"/>
                                 </variation>
                                 <connections>
                                     <segue destination="Iff-7F-KBL" kind="show" id="F2W-ml-Lan"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern3" translatesAutoresizingMaskIntoConstraints="NO" id="RgJ-je-i4J">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture3.c" translatesAutoresizingMaskIntoConstraints="NO" id="RgJ-je-i4J">
                                 <rect key="frame" x="102" y="525" width="160" height="120"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="473" width="160" height="120"/>
+                                    <rect key="frame" x="120" y="480" width="160" height="120"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aQv-oC-dsV">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="473" width="149" height="120"/>
+                                    <rect key="frame" x="126" y="482" width="149" height="120"/>
                                 </variation>
                                 <connections>
                                     <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Pattern2" translatesAutoresizingMaskIntoConstraints="NO" id="cjf-sj-xd8">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Picture2.c" translatesAutoresizingMaskIntoConstraints="NO" id="cjf-sj-xd8">
                                 <rect key="frame" x="102" y="380" width="160" height="120"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="120" y="340" width="160" height="120"/>
+                                    <rect key="frame" x="120" y="355" width="160" height="120"/>
                                 </variation>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2E4-vO-sRv">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="343" width="149" height="120"/>
+                                    <rect key="frame" x="126" y="360" width="149" height="120"/>
                                 </variation>
                                 <connections>
                                     <segue destination="0dR-S3-wVT" kind="show" id="fuR-NA-nGL"/>
@@ -848,6 +850,10 @@
         <scene sceneID="9Jt-YJ-fAL">
             <objects>
                 <viewController id="sHm-zu-305" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kps-dz-CzZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="xIS-fb-OKG"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="feQ-m4-H0R">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="464"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -859,9 +865,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Pattern1" width="236" height="230"/>
-        <image name="Pattern2" width="300" height="290"/>
-        <image name="Pattern3" width="236" height="227"/>
         <image name="Picture1.a 4.17.41 PM" width="149" height="143"/>
         <image name="Picture1.b 4.17.41 PM" width="148" height="145"/>
         <image name="Picture1.c 4.17.41 PM" width="147" height="146"/>
