@@ -63,7 +63,7 @@
                                     <segue destination="cvz-Yz-hd0" kind="show" id="hjX-4s-oLS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cej-7e-Iw5">
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <state key="normal" image="Picture1.c_circlefied 4.17.41 PM"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -185,8 +185,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FcU-mp-p0O">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="Arrow Filled-60">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -196,7 +195,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="38" y="647" width="55" height="55"/>
+                                    <rect key="frame" x="41" y="643" width="53" height="67"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="dJp-MO-muC"/>
@@ -204,8 +203,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-9M-uMf">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="save_btn_60"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="25"/>
@@ -213,7 +210,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="302" y="647" width="60" height="60"/>
+                                    <rect key="frame" x="314" y="647" width="57" height="60"/>
                                 </variation>
                                 <connections>
                                     <action selector="takeScreenShot:" destination="Iff-7F-KBL" eventType="touchUpInside" id="kMX-ZS-RWJ"/>
@@ -221,8 +218,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YjR-1H-iNQ">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Undo">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -232,7 +228,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="217" y="651" width="52" height="52"/>
+                                    <rect key="frame" x="220" y="647" width="58" height="57"/>
                                 </variation>
                                 <connections>
                                     <action selector="undoButton:" destination="Iff-7F-KBL" eventType="touchUpInside" id="dof-Kk-WPq"/>
@@ -240,9 +236,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5WD-u3-Agi">
                                 <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Reset">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal">
                                     <color key="titleShadowColor" red="0.97392624616622925" green="0.94195443391799927" blue="0.92348974943161011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -252,7 +246,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="131" y="651" width="52" height="52"/>
+                                    <rect key="frame" x="130" y="647" width="58" height="61"/>
                                 </variation>
                                 <connections>
                                     <action selector="resetScreen:" destination="Iff-7F-KBL" eventType="touchUpInside" id="smT-vn-JUZ"/>
@@ -316,6 +310,30 @@
                                     <rect key="frame" x="260" y="41" width="34" height="34"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backButton1" translatesAutoresizingMaskIntoConstraints="NO" id="FoO-Lk-vNH">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="621" width="114" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resetButton" translatesAutoresizingMaskIntoConstraints="NO" id="t8V-s7-vye">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="undoButton1" translatesAutoresizingMaskIntoConstraints="NO" id="WCV-Ml-sei">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="196" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saveButton" translatesAutoresizingMaskIntoConstraints="NO" id="hng-Pm-3qD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="289" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -331,6 +349,10 @@
                                 <exclude reference="Pmi-J0-3i5"/>
                                 <exclude reference="wPP-Sg-lba"/>
                                 <exclude reference="929-BH-ZsT"/>
+                                <exclude reference="FoO-Lk-vNH"/>
+                                <exclude reference="t8V-s7-vye"/>
+                                <exclude reference="WCV-Ml-sei"/>
+                                <exclude reference="hng-Pm-3qD"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -346,6 +368,10 @@
                                 <include reference="Pmi-J0-3i5"/>
                                 <include reference="wPP-Sg-lba"/>
                                 <include reference="929-BH-ZsT"/>
+                                <include reference="FoO-Lk-vNH"/>
+                                <include reference="t8V-s7-vye"/>
+                                <include reference="WCV-Ml-sei"/>
+                                <include reference="hng-Pm-3qD"/>
                             </mask>
                         </variation>
                     </view>
@@ -440,8 +466,7 @@
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AUm-WD-wO4">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="Arrow Filled-60">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -459,8 +484,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lg3-lC-vdk">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="save_btn_60">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -470,7 +494,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="302" y="647" width="60" height="60"/>
+                                    <rect key="frame" x="314" y="647" width="59" height="60"/>
                                 </variation>
                                 <connections>
                                     <action selector="takeScreenShot:" destination="0dR-S3-wVT" eventType="touchUpInside" id="dHa-Jc-LTb"/>
@@ -478,7 +502,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VYr-pQ-E5d">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Undo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -489,7 +512,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="217" y="651" width="52" height="52"/>
+                                    <rect key="frame" x="217" y="651" width="64" height="52"/>
                                 </variation>
                                 <connections>
                                     <action selector="undoButton:" destination="0dR-S3-wVT" eventType="touchUpInside" id="Lgl-7Y-l4x"/>
@@ -497,7 +520,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Orx-M9-eof">
                                 <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.97392624620000001" green="0.9419544339" blue="0.92348974939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -579,6 +601,30 @@
                                     <rect key="frame" x="265" y="40" width="34" height="34"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backButton1" translatesAutoresizingMaskIntoConstraints="NO" id="Ugy-2J-Ntp">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="11" y="621" width="114" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resetButton" translatesAutoresizingMaskIntoConstraints="NO" id="aJu-Ge-JSY">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="undoButton1" translatesAutoresizingMaskIntoConstraints="NO" id="raY-Ky-SXw">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="196" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saveButton" translatesAutoresizingMaskIntoConstraints="NO" id="rse-Bf-zS8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="289" y="621" width="110" height="110"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -594,6 +640,10 @@
                                 <exclude reference="Q5c-lU-0Za"/>
                                 <exclude reference="6sr-co-MQH"/>
                                 <exclude reference="6RI-BT-OmZ"/>
+                                <exclude reference="Ugy-2J-Ntp"/>
+                                <exclude reference="aJu-Ge-JSY"/>
+                                <exclude reference="raY-Ky-SXw"/>
+                                <exclude reference="rse-Bf-zS8"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -609,6 +659,10 @@
                                 <include reference="Q5c-lU-0Za"/>
                                 <include reference="6sr-co-MQH"/>
                                 <include reference="6RI-BT-OmZ"/>
+                                <include reference="Ugy-2J-Ntp"/>
+                                <include reference="aJu-Ge-JSY"/>
+                                <include reference="raY-Ky-SXw"/>
+                                <include reference="rse-Bf-zS8"/>
                             </mask>
                         </variation>
                     </view>
@@ -666,8 +720,7 @@
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V87-sq-2vX">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="Arrow Filled-60">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -677,7 +730,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="39" y="647" width="55" height="55"/>
+                                    <rect key="frame" x="39" y="647" width="57" height="55"/>
                                 </variation>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="d5P-M7-G7I"/>
@@ -685,8 +738,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RmP-mr-XDA">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" image="save_btn_60">
+                                <state key="normal">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -696,7 +748,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="302" y="647" width="60" height="60"/>
+                                    <rect key="frame" x="314" y="647" width="56" height="60"/>
                                 </variation>
                                 <connections>
                                     <action selector="takeScreenShot:" destination="cvz-Yz-hd0" eventType="touchUpInside" id="exD-YW-mF9"/>
@@ -704,7 +756,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DsP-tP-MKa">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Undo">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -715,7 +766,7 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="217" y="651" width="52" height="52"/>
+                                    <rect key="frame" x="222" y="651" width="53" height="52"/>
                                 </variation>
                                 <connections>
                                     <action selector="undoButton:" destination="cvz-Yz-hd0" eventType="touchUpInside" id="SXq-vX-y7l"/>
@@ -723,7 +774,6 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DXk-zN-xCX">
                                 <rect key="frame" x="59" y="80" width="39" height="30"/>
-                                <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Reset">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.97392624620000001" green="0.9419544339" blue="0.92348974939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -816,6 +866,30 @@
                                     <rect key="frame" x="260" y="49" width="34" height="34"/>
                                 </variation>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backButton1" translatesAutoresizingMaskIntoConstraints="NO" id="g3L-ew-Nxt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="13" y="620" width="114" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="resetButton" translatesAutoresizingMaskIntoConstraints="NO" id="pGx-LH-2qt">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="104" y="620" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="undoButton1" translatesAutoresizingMaskIntoConstraints="NO" id="GZm-UY-XHG">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="196" y="620" width="110" height="110"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="saveButton" translatesAutoresizingMaskIntoConstraints="NO" id="UQm-an-aOx">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="289" y="620" width="110" height="110"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -831,6 +905,10 @@
                                 <exclude reference="b6k-eC-7TW"/>
                                 <exclude reference="dvB-rW-SOb"/>
                                 <exclude reference="hnm-3d-jqX"/>
+                                <exclude reference="g3L-ew-Nxt"/>
+                                <exclude reference="pGx-LH-2qt"/>
+                                <exclude reference="GZm-UY-XHG"/>
+                                <exclude reference="UQm-an-aOx"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -846,6 +924,10 @@
                                 <include reference="b6k-eC-7TW"/>
                                 <include reference="dvB-rW-SOb"/>
                                 <include reference="hnm-3d-jqX"/>
+                                <include reference="g3L-ew-Nxt"/>
+                                <include reference="pGx-LH-2qt"/>
+                                <include reference="GZm-UY-XHG"/>
+                                <include reference="UQm-an-aOx"/>
                             </mask>
                         </variation>
                     </view>
@@ -858,7 +940,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g9A-d9-1KO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="976" y="1294"/>
+            <point key="canvasLocation" x="975" y="1293.75"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kXI-2Q-UzL">
@@ -914,7 +996,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Arrow Filled-60" width="60" height="60"/>
         <image name="Picture1.a 4.17.41 PM" width="149" height="143"/>
         <image name="Picture1.b 4.17.41 PM" width="148" height="145"/>
         <image name="Picture1.c 4.17.41 PM" width="147" height="146"/>
@@ -927,10 +1008,13 @@
         <image name="Picture3.b" width="152" height="149"/>
         <image name="Picture3.c" width="154" height="153"/>
         <image name="Picture3.c_circlefied" width="137" height="138"/>
+        <image name="backButton1" width="1024" height="1024"/>
         <image name="bamboo_welcome" width="817" height="720"/>
-        <image name="save_btn_60" width="60" height="60"/>
+        <image name="resetButton" width="1024" height="1024"/>
+        <image name="saveButton" width="1024" height="1024"/>
+        <image name="undoButton1" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="344-y9-fUi"/>
+        <segue reference="d5P-M7-G7I"/>
     </inferredMetricsTieBreakers>
 </document>
