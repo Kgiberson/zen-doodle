@@ -7,9 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var pauseButtonOutlet: UIButton!
     @IBOutlet weak var playButtonOutlet: UIButton!
     
     var player = AVAudioPlayer()
@@ -37,6 +39,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor(red: 0.922, green: 0.898, blue: 0.898, alpha: 1)
         super.viewDidLoad()
+        pauseButtonOutlet.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -48,8 +51,16 @@ class ViewController: UIViewController {
     override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
         return UIInterfaceOrientationMask.Portrait
     }
-    
+    @IBAction func playButton(sender: AnyObject) {
+        playButtonOutlet.hidden = true
+        pauseButtonOutlet.hidden = false
+        sound()
+    }
 
+    @IBAction func pauseButton(sender: AnyObject) {
+        pausePlayer()
+    }
+    
 }
 
 //

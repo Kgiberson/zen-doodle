@@ -82,9 +82,28 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Button" image="PlayButton"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="26" y="104" width="42" height="47"/>
+                                    <rect key="frame" x="36" y="109" width="35" height="46"/>
                                 </variation>
+                                <connections>
+                                    <action selector="playButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uHk-7I-afr"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXM-mp-Xe8">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button" image="PauseButton"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="112" width="33" height="41"/>
+                                </variation>
+                                <connections>
+                                    <action selector="pauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rLy-5W-EWU"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Enso" translatesAutoresizingMaskIntoConstraints="NO" id="1Sy-t6-Oci">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="6" y="88" width="87" height="86"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -94,6 +113,8 @@
                                 <exclude reference="cej-7e-Iw5"/>
                                 <exclude reference="aQv-oC-dsV"/>
                                 <exclude reference="ndt-ze-JQ4"/>
+                                <exclude reference="cXM-mp-Xe8"/>
+                                <exclude reference="1Sy-t6-Oci"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -103,12 +124,15 @@
                                 <include reference="cej-7e-Iw5"/>
                                 <include reference="aQv-oC-dsV"/>
                                 <include reference="ndt-ze-JQ4"/>
+                                <include reference="cXM-mp-Xe8"/>
+                                <include reference="1Sy-t6-Oci"/>
                             </mask>
                         </variation>
                     </view>
                     <navigationItem key="navigationItem" id="NYc-CM-kMe"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
+                        <outlet property="pauseButtonOutlet" destination="cXM-mp-Xe8" id="zPQ-kt-Wnv"/>
                         <outlet property="playButtonOutlet" destination="ndt-ze-JQ4" id="YJu-Us-H2d"/>
                     </connections>
                 </viewController>
@@ -2815,6 +2839,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Enso" width="600" height="600"/>
+        <image name="PauseButton" width="286" height="423"/>
         <image name="Picture1.a 4.17.41 PM" width="149" height="143"/>
         <image name="Picture1.b 4.17.41 PM" width="148" height="145"/>
         <image name="Picture1.c 4.17.41 PM" width="147" height="146"/>
@@ -2835,6 +2861,6 @@
         <image name="undoButton1" width="1024" height="1024"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="jou-e8-0iC"/>
+        <segue reference="neB-wp-CjC"/>
     </inferredMetricsTieBreakers>
 </document>
