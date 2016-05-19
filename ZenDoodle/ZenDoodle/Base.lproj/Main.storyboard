@@ -52,7 +52,7 @@
                                 <rect key="frame" x="107" y="249" width="155" height="112"/>
                                 <state key="normal" image="enso2c"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="285" width="127" height="125"/>
+                                    <rect key="frame" x="21" y="285" width="127" height="125"/>
                                 </variation>
                                 <connections>
                                     <segue destination="4cc-YU-vk0" kind="show" id="LjB-XF-t3N"/>
