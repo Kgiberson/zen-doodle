@@ -17,9 +17,8 @@ class SecondViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(red: 0.980, green: 0.941, blue: 0.902, alpha: 1)        // app
-        self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.frame);
+        self.drawingView = ACEDrawingView(frame: self.embeddedSecondViewController.bounds);
         
-        self.view.backgroundColor = UIColor(red: 0.980, green: 0.941, blue: 0.902, alpha: 1) // canvas
         self.embeddedSecondViewController.addSubview(self.drawingView!)
         
     }
