@@ -60,7 +60,7 @@ class ViewController: UIViewController {
     @IBAction func pauseButton(sender: AnyObject) {
         pausePlayer()
     }
-    
+
 }
 
 //
@@ -77,4 +77,4 @@ class ViewController: UIViewController {
 //    }
 //    
 //    
-//}
+}
