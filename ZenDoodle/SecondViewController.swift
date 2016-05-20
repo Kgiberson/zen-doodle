@@ -39,6 +39,13 @@ class SecondViewController: UIViewController {
     
     @IBAction func takeScreenShot(sender: UIButton) {
         
+        let hud = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        
+        hud.mode = MBProgressHUDMode.Text
+        
+        hud.detailsLabel.text = "You've saved your doodle"
+        hud.hideAnimated(true, afterDelay: 1.5)
+        
         UIGraphicsBeginImageContext(drawingView!.frame.size)
         drawingView!.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         
