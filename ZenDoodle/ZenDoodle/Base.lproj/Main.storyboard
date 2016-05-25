@@ -191,8 +191,7 @@
                                         <exclude reference="wv8-uI-RnY"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="25" y="319" width="131" height="129"/>
+                                <variation key="heightClass=regular-widthClass=compact">
                                     <mask key="constraints">
                                         <exclude reference="EvD-Ac-Sld"/>
                                         <include reference="Qqw-Wc-zxl"/>
