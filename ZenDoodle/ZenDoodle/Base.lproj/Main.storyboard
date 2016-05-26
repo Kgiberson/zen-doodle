@@ -115,7 +115,8 @@
                                         <exclude reference="rlm-BO-mph"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="43" y="48" width="35" height="46"/>
                                     <mask key="constraints">
                                         <include reference="2oB-j7-4F2"/>
                                         <include reference="K2Q-FI-9Ze"/>
@@ -139,7 +140,8 @@
                                         <exclude reference="zno-aP-W74"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="40" y="51" width="33" height="40"/>
                                     <mask key="constraints">
                                         <include reference="Dza-Kb-dOK"/>
                                         <include reference="zno-aP-W74"/>
@@ -161,7 +163,8 @@
                                         <exclude reference="nSe-DU-EMm"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=compact">
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="13" y="28" width="87" height="86"/>
                                     <mask key="constraints">
                                         <include reference="k8m-9c-sBf"/>
                                         <include reference="nSe-DU-EMm"/>
