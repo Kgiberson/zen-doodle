@@ -14,12 +14,12 @@
 		098549BC1CE64CD7003F0C6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 098549BA1CE64CD7003F0C6D /* LaunchScreen.storyboard */; };
 		098549C71CE64CD7003F0C6D /* ZenDoodleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549C61CE64CD7003F0C6D /* ZenDoodleTests.swift */; };
 		098549D21CE64CD7003F0C6D /* ZenDoodleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098549D11CE64CD7003F0C6D /* ZenDoodleUITests.swift */; };
-		3DBBC85C1CEA3FA200471F6B /* Picture3.c.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DBBC85B1CEA3FA200471F6B /* Picture3.c.png */; };
 		614786741CE6606000845D24 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614786731CE6606000845D24 /* SecondViewController.swift */; };
 		61C28FE51CE68A190054D716 /* ACEDrawingTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE21CE68A190054D716 /* ACEDrawingTools.m */; };
 		61C28FE61CE68A190054D716 /* ACEDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FE41CE68A190054D716 /* ACEDrawingView.m */; };
 		61C28FF41CE936980054D716 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C28FF31CE936980054D716 /* MBProgressHUD.m */; };
 		8419DC231CEE3D080056E3F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8419DC221CEE3D080056E3F3 /* AVFoundation.framework */; };
+		8419DC2C1CEF8E460056E3F3 /* KatyZenDoodle2.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 8419DC2B1CEF8E460056E3F3 /* KatyZenDoodle2.aiff */; };
 		843ECE921CE7F476007A5083 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 843ECE911CE7F476007A5083 /* .gitignore */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +54,6 @@
 		098549CD1CE64CD7003F0C6D /* ZenDoodleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenDoodleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		098549D11CE64CD7003F0C6D /* ZenDoodleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenDoodleUITests.swift; sourceTree = "<group>"; };
 		098549D31CE64CD7003F0C6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3DBBC85B1CEA3FA200471F6B /* Picture3.c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Picture3.c.png; sourceTree = "<group>"; };
 		614786731CE6606000845D24 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
 		619BF3301CE653EA00A719BD /* ZenDoodle-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZenDoodle-Bridging-Header.h"; sourceTree = "<group>"; };
 		61C28FE11CE68A190054D716 /* ACEDrawingTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEDrawingTools.h; path = ACEDrawingView/ACEDrawingTools.h; sourceTree = "<group>"; };
@@ -64,6 +63,7 @@
 		61C28FF21CE936980054D716 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		61C28FF31CE936980054D716 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8419DC221CEE3D080056E3F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8419DC2B1CEF8E460056E3F3 /* KatyZenDoodle2.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = KatyZenDoodle2.aiff; sourceTree = "<group>"; };
 		843ECE911CE7F476007A5083 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,7 +130,6 @@
 				614786731CE6606000845D24 /* SecondViewController.swift */,
 				098549B51CE64CD6003F0C6D /* Main.storyboard */,
 				098549B81CE64CD6003F0C6D /* Assets.xcassets */,
-				3DBBC85B1CEA3FA200471F6B /* Picture3.c.png */,
 				098549BA1CE64CD7003F0C6D /* LaunchScreen.storyboard */,
 				098549BD1CE64CD7003F0C6D /* Info.plist */,
 				619BF3301CE653EA00A719BD /* ZenDoodle-Bridging-Header.h */,
@@ -159,6 +158,7 @@
 		8419DC241CEE3FE40056E3F3 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				8419DC2B1CEF8E460056E3F3 /* KatyZenDoodle2.aiff */,
 			);
 			name = Sounds;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843ECE921CE7F476007A5083 /* .gitignore in Resources */,
-				3DBBC85C1CEA3FA200471F6B /* Picture3.c.png in Resources */,
+				8419DC2C1CEF8E460056E3F3 /* KatyZenDoodle2.aiff in Resources */,
 				098549BC1CE64CD7003F0C6D /* LaunchScreen.storyboard in Resources */,
 				098549B91CE64CD6003F0C6D /* Assets.xcassets in Resources */,
 				098549B71CE64CD6003F0C6D /* Main.storyboard in Resources */,
