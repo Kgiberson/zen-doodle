@@ -1,6 +1,6 @@
 # ZenDoodle (for iOS)
 
-#####(IN DEVELOPMENT)
+#####(in development)
 
 ## Version
 
@@ -27,8 +27,6 @@ There are no mistakes when ZenDoodling. Each stroke is the beginning of somethin
 
 ![Image of ZenDoodle Homepage](ZenDoodle/ZenDoodle/Assets.xcassets/homepage_screenshot.imageset/homepage_screenshot.png)
 ![Image of ZenDoodle Drawpage](ZenDoodle/ZenDoodle/Assets.xcassets/drawing_screenshot.imageset/drawing_screenshot.png)
-
-<img src="ZenDoodle/ZenDoodle/Assets.xcassets/homepage_screenshot.imageset/homepage_screenshot.png" width="200px>
 
 ## License
 
