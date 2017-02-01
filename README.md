@@ -10,7 +10,7 @@
 
 ZenDoodle is a native mobile iOS app designed to help you find your inner zen through drawing simple, beautiful patterns.
 
-Doodling - the spontaneous act of drawing, is a fantastic way to relieve stress, improve concentration,  and stimulate creativity.
+Doodling - the spontaneous act of drawing, is a fantastic way to relieve stress, improve concentration, and stimulate creativity.
 
 There are no mistakes when ZenDoodling. Each stroke is the beginning of something new. Leave all expectations, criticisms, and comparisons behind during your ZenDoodle.
 
@@ -27,6 +27,8 @@ There are no mistakes when ZenDoodling. Each stroke is the beginning of somethin
 
 ![Image of ZenDoodle Homepage](ZenDoodle/ZenDoodle/Assets.xcassets/homepage_screenshot.imageset/homepage_screenshot.png)
 ![Image of ZenDoodle Drawpage](ZenDoodle/ZenDoodle/Assets.xcassets/drawing_screenshot.imageset/drawing_screenshot.png)
+
+<img src="ZenDoodle/ZenDoodle/Assets.xcassets/homepage_screenshot.imageset/homepage_screenshot.png" width="200px>
 
 ## License
 
